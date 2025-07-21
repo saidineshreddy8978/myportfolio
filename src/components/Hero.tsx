@@ -6,7 +6,7 @@ import resume from "../../public/SAI_DINESH_RESUME[1].pdf"
 const Hero: React.FC = () => {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const fullText = "Hi, I'm Sai Dinesh Reddy – Full-Stack Developer & UI/UX Enthusiast & AI Tools Enthusiast ";
+  const fullText = "Hi, I'm Sai Dinesh Reddy – Full-Stack Developer & UI/UX Designer & AI Tools Enthusiast ";
 
   useEffect(() => {
     if (currentIndex < fullText.length) {
