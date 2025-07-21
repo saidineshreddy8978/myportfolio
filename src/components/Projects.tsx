@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
         "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600",
       tags: ["React", "Framer Motion", "Tailwind", "TypeScript"],
       category: "frontend",
-      github: "https://github.com",
+      github: "https://github.com/saidineshreddy8978/myportfolio",
       live: "#",
     },
   ];
