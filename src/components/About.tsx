@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Heart, Target, Lightbulb, Users } from 'lucide-react';
+// import { Heart, Target, Lightbulb, Users } from 'lucide-react';
 import profile from "../../public/SAI-PROFILE.jpg";
 
 const About: React.FC = () => {
@@ -10,28 +10,28 @@ const About: React.FC = () => {
     threshold: 0.1,
   });
 
-  const values = [
-    {
-      icon: Heart,
-      title: 'Passion-Driven',
-      description: 'I believe great software comes from genuine passion for solving problems and creating meaningful experiences.',
-    },
-    {
-      icon: Target,
-      title: 'Detail-Oriented',
-      description: 'Every pixel matters. I focus on the small details that make a big difference in user experience.',
-    },
-    {
-      icon: Lightbulb,
-      title: 'Innovation',
-      description: 'Always exploring new technologies and methodologies to stay at the forefront of development.',
-    },
-    {
-      icon: Users,
-      title: 'Collaboration',
-      description: 'Strong believer in teamwork and open communication to achieve extraordinary results.',
-    },
-  ];
+  // const values = [
+  //   {
+  //     icon: Heart,
+  //     title: 'Passion-Driven',
+  //     description: 'I believe great software comes from genuine passion for solving problems and creating meaningful experiences.',
+  //   },
+  //   {
+  //     icon: Target,
+  //     title: 'Detail-Oriented',
+  //     description: 'Every pixel matters. I focus on the small details that make a big difference in user experience.',
+  //   },
+  //   {
+  //     icon: Lightbulb,
+  //     title: 'Innovation',
+  //     description: 'Always exploring new technologies and methodologies to stay at the forefront of development.',
+  //   },
+  //   {
+  //     icon: Users,
+  //     title: 'Collaboration',
+  //     description: 'Strong believer in teamwork and open communication to achieve extraordinary results.',
+  //   },
+  // ];
 
   return (
     <section id="about" className="py-20 relative">
@@ -91,7 +91,7 @@ const About: React.FC = () => {
           </motion.div>
         </div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.6 }}
@@ -116,7 +116,7 @@ const About: React.FC = () => {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
