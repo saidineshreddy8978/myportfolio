@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
           </motion.button> */}
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 3, duration: 0.8 }}
@@ -106,9 +106,9 @@ const Hero: React.FC = () => {
               <Icon className="w-6 h-6" />
             </motion.a>
           ))}
-        </motion.div>
+        </motion.div> */}
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 3.5, duration: 0.8 }}
@@ -122,7 +122,7 @@ const Hero: React.FC = () => {
             <span className="text-sm mb-2">Scroll to explore</span>
             <ArrowDown className="w-5 h-5" />
           </motion.div>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

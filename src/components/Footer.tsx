@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             <span className="text-lg font-semibold gradient-text">Sai Dinesh Reddy</span>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             <Heart className="w-4 h-4 text-red-500" />
             <span>and lots of</span>
             <span className="text-neon-500">coffee</span>
-          </motion.div>
+          </motion.div> */}
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -46,7 +46,9 @@ const Footer: React.FC = () => {
           className="mt-8 pt-8 border-t border-gray-800 text-center"
         >
           <p className="text-gray-400 text-sm">
-            "Code is like humor. When you have to explain it, it's bad." - Cory House
+           "Design with purpose. Code with clarity."
+
+
           </p>
         </motion.div>
       </div>
